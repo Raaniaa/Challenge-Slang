@@ -36,9 +36,9 @@ class activityController extends Controller
             })->values();
         });
 
-//        $post = Http::withToken('ODQ6OUpnTFlka2VObFl3aU1YQ3FFYksxRUVvbFc1R0Z2QnR6Wm1lVmJ6ejlPZz0')->withHeaders(['Content-Type'=>'application/json'])
-//            ->post('https://api.slangapp.com/challenges/v1/activities/sessions',["user_sessions"=>$res->toArray()]);
-//        return response()->json($post->status());
+        $post = Http::withToken('ODQ6OUpnTFlka2VObFl3aU1YQ3FFYksxRUVvbFc1R0Z2QnR6Wm1lVmJ6ejlPZz0')->withHeaders(['Content-Type'=>'application/json'])
+            ->post('https://api.slangapp.com/challenges/v1/activities/sessions',["user_sessions"=>$res->toArray()]);
+        return response()->json($post->status());
     }
 
 }

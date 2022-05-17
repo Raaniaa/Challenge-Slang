@@ -11,9 +11,12 @@ Size
   
   Comment Lines of Code (CLOC)                     186 (31.74%)
   
+  
   Non-Comment Lines of Code (NCLOC)                400 (68.26%)
   
+  
   Logical Lines of Code (LLOC)                      49 (8.36%)
+  
   
   
     Classes                                         49 (100.00%)
